@@ -108,7 +108,7 @@ function App({ initialValue = 1, max = 1000 }) {
     <div className="App">
       <div className="count-app">
         <div
-          className="loder-state"
+          className="loader-state"
           style={isSave ? {} : { visibility: "hidden" }}
         >
           <div className="loader"></div>
