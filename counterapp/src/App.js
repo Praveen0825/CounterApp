@@ -70,7 +70,7 @@ function App({ initialValue = 1, max = 1000 }) {
         if (value && value !== null) {
           countValFromGet.current = value;
           dispatchCounter({
-            type: "absolute",
+            type: "abs",
             value,
           });
         }
